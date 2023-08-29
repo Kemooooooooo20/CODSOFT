@@ -1,3 +1,8 @@
+/******************************************************************/
+/*************name:             kareem nader          *************/
+/*************version:          0.1                   *************/
+/*************devoloped for:    codsoft_intership     *************/
+/******************************************************************/
 #include <iostream>
 #include <cstdlib>
 #include <time.h>
@@ -138,8 +143,8 @@ while(true)
     for (int i = 0; i < 100; i++) 
     {
         if(student_Name == students[i].student_name) {
-            GPA_num__2 = GPA_calc(students[i].marks, students[i].CHS);
-            cout << students[i].student_name << " has a gpa of "<< GPA_num__2<<endl;
+           // GPA_num__2 = GPA_calc(students[i].marks, students[i].CHS);
+            cout << students[i].student_name << " has a gpa of "<< students[i].GPA<<endl;
             studentFound = true; // Set the flag to true when student is found
             break; // Exit the loop when student is found
         }
