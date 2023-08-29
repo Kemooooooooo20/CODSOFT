@@ -1,3 +1,9 @@
+/******************************************************************/
+/*************name:             kareem nader          *************/
+/*************version:          0.1                   *************/
+/*************devoloped for:    codsoft_intership     *************/
+/******************************************************************/
+
 #include <iostream>
 #include <cstdlib>
 #include <time.h>
@@ -33,7 +39,7 @@ while (true)
 {
    // cout<<"enter first number\n";
     cin>>user_input;
-    user_input01_case = validator(user_input,-900000000,900000000);
+    user_input01_case = validator(user_input,-50000,50000);
     if(user_input01_case)
     {
     user_input_num = stod(user_input);
@@ -80,7 +86,7 @@ while (true)
 {
     //cout<<"enter second number\n";
     cin>>second_user_input;
-    user_input02_case = validator(second_user_input,-900000000,900000000);
+    user_input02_case = validator(second_user_input,-50000,50000);
     if(user_input02_case){
     second_user_input_num = stod(second_user_input);
     break;
